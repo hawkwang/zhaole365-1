@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Demo3</string>
+    <string name="hello_world">建设中</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab1">找乐</string>
+    <string name="tab2">乐群</string>
+    <string name="tab3">更多</string>
+    <string name="tab4">我</string>
+    <string name="title_activity_detail">A</string>
+    <string name="textTest">介绍</string>
+    <string name="desc1">筛选在 </string>
+    <string name="desc2">进行的 </string>
+    <string name="desc3">没有了</string>
+    <string name="desc4">活动</string>
+    <string name="try_it" color="#fff">搜索</string>
+
+    <string-array name="options">
+        <item>电影</item>
+        <item>讲座</item>
+        <item>创业</item>
+        <item>聚会</item>
+        <item>户外</item>
+        <item>体育</item>
+        <item>亲子</item>
+        <item>展览</item>
+        <item>演出</item>
+        <item>IT</item>
+    </string-array>
+
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="title_activity_create_event">CreateEventActivity</string>
+    <string name="title_activity_create_group">CreateGroupActivity</string>
+    <string name="title_activity_group">GroupActivity</string>
+
+</resources>

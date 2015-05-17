@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#88009682"
+        >
+        <SearchView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/searchView"
+            android:maxWidth="360dp"
+            android:inputType="textCapSentences"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+
+            android:text="@string/desc1"
+
+            android:gravity="center"
+            />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/eventDateSpinner"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+
+            android:text="@string/desc2"
+
+            android:gravity="center"
+            />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/tagsSpinner"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+
+            android:text="@string/desc4"
+
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ListView"
+
+        android:transcriptMode="alwaysScroll"
+        />
+    <TextView
+        android:id="@+id/End"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/desc3"
+        android:textColor="#ffcccccc"
+        android:gravity="center"/>
+<!--    <ExpandableListView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ExpandableListView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:groupIndicator="@null"/>-->
+
+</LinearLayout>

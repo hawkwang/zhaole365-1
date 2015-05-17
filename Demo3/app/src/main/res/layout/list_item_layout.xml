@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dip"
+    android:paddingBottom="8dip"
+    android:paddingLeft="8dip"
+    android:paddingRight="8dip">
+    <com.loopj.android.image.SmartImageView
+            android:id="@+id/image"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="#55009682"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingLeft="8dip"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/title"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:lines="2"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_weight="3"
+                android:id="@+id/distance"
+                android:lines="1"
+                android:ellipsize="end"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:id="@+id/tags"
+                android:lines="1"
+                android:ellipsize="end"/>
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
